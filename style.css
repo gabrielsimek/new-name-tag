@@ -1,0 +1,74 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.background {
+    height: 450px;
+    width: 700px;
+    background-color: rgb(230, 228, 228);
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.name-tag {
+    background-color: hotpink;
+    margin: 10px;
+    border-radius: 25px;
+    display:grid;
+    grid-template-rows: 50% 40% auto;
+    text-align: center;
+    
+}
+
+.greeting {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    
+    font-stretch:ultra-expanded
+   
+}
+
+.hello {
+    font-size: 120px;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+    
+}
+
+
+
+.name-is {
+    font-size: 60px;
+    
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 25px;
+    
+    
+}
+
+
+
+.name {
+    background-color: white;
+    font-size: 50px;
+    font-family: cursive;
+    font-style: italic;
+    padding-top: 60px;
+
+}
+
